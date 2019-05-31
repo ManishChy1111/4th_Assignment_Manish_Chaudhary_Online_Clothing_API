@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddItemActivity">
+    tools:context=".AddItemActivity"
+    android:background="#40A"
+    >
 
     <Button
         android:id="@+id/btnBackAddItem"
@@ -18,11 +20,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Item"
+        android:text="ADD ITEM"
         android:textSize="50dp"
         android:inputType="text"
         android:layout_margin="16dp"
-        android:textColor="@color/dark_primary_color"
+        android:textColor="@color/design_default_color_primary"
+        android:background="#66ff"
         />
 
     <ImageView
@@ -31,36 +34,40 @@
         android:layout_height="200dp"
         android:scaleType="fitCenter"
         android:layout_gravity="center"
-        android:src="@drawable/image"/>
+        android:src="@drawable/image"
+        android:background="#66ff"/>
 
 
     <EditText
         android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/dark_primary_color"
-        android:hint="Enter Item Name"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:hint="ENTER ITEM NAME"
         android:layout_margin="16dp"
-        android:inputType="text" />
+        android:inputType="text"
+        android:background="#66ff"/>
 
     <EditText
         android:id="@+id/etPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
-        android:hint="Enter price"
-        android:textColor="@color/dark_primary_color"
+        android:hint="ENTER PRICE"
+        android:textColor="@color/design_default_color_primary_dark"
         android:layout_margin="16dp"
+        android:background="#66ff"
         />
 
     <EditText
         android:id="@+id/etDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/dark_primary_color"
+        android:textColor="@color/design_default_color_primary_dark"
         android:layout_margin="16dp"
-        android:hint="Enter Description"
-        android:inputType="text" />
+        android:hint="ENTER DESCRIPTION"
+        android:inputType="text"
+        android:background="#66ff"/>
 
     <Button
         android:id="@+id/btnAddItem"
@@ -69,7 +76,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
-        android:text="Add Item"
-        android:background="#66ff66"
+        android:text="ADD ITEM"
+        android:background="#66ff"
         />
 </LinearLayout>

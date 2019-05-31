@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#40A33F"
     android:gravity="center_vertical"
     android:fitsSystemWindows="true"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#40A">
 
     <ImageView
         android:layout_width="100dp"
@@ -22,7 +22,8 @@
         android:layout_marginRight="16dp"
         android:theme="@style/TextLabel"
         android:id="@+id/email_text_input_layout"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#40A">
 
         <EditText
             android:id="@+id/etUserNameLogin"
@@ -30,8 +31,9 @@
             android:layout_height="wrap_content"
             android:textColor="@color/grey_300"
             android:layout_marginBottom="16dp"
-            android:hint="User Name"
-            android:inputType="textEmailAddress" />
+            android:hint="USER NAME"
+            android:inputType="textEmailAddress"
+            android:background="#40A"/>
     </android.support.design.widget.TextInputLayout>
 
 
@@ -40,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:theme="@style/TextLabel">
+        android:theme="@style/TextLabel"
+        android:background="#40A">
 
         <EditText
             android:id="@+id/etPasswordLogin"
@@ -48,8 +51,9 @@
             android:layout_height="wrap_content"
             android:textColor="@color/grey_300"
             android:layout_marginBottom="16dp"
-            android:hint="Password"
-            android:inputType="textPassword" />
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:background="#40A"/>
     </android.support.design.widget.TextInputLayout>
 
 
@@ -61,7 +65,8 @@
         android:tag="custom_login_button"
         android:layout_margin="16dp"
         android:text="@string/sign_in"
-        android:drawableTint="@color/green_800"
-        android:textColor="@color/grey_300" />
+        android:drawableTint="@color/design_default_color_primary_dark"
+        android:textColor="@color/design_default_color_primary_dark"
+        />
 
 </LinearLayout>

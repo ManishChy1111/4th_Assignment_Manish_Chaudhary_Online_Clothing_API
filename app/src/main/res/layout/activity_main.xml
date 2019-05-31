@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#40A33F"
+    android:background="#40A"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <ImageView
         android:id="@+id/imgSplash"
@@ -21,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Shop with us . . . "
+        android:text="ONLINE CLOTHING ANDROID APP . . . "
         android:textColor="@color/grey_300"
         android:textSize="30sp"/>
 </LinearLayout>
