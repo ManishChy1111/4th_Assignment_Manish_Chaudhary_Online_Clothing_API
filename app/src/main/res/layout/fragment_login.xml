@@ -67,6 +67,8 @@
         android:text="@string/sign_in"
         android:drawableTint="@color/design_default_color_primary_dark"
         android:textColor="@color/design_default_color_primary_dark"
+        android:background="#40A"
+
         />
 
 </LinearLayout>
